@@ -1,0 +1,10 @@
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\bin\Debug\ProjektGra.exe.config
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\bin\Debug\ProjektGra.exe
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\bin\Debug\ProjektGra.pdb
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\obj\Debug\ProjektGra.csprojAssemblyReference.cache
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\obj\Debug\ProjektGra.Form1.resources
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\obj\Debug\ProjektGra.Properties.Resources.resources
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\obj\Debug\ProjektGra.csproj.GenerateResource.cache
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\obj\Debug\ProjektGra.csproj.CoreCompileInputs.cache
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\obj\Debug\ProjektGra.exe
+C:\Users\djaszczynski\OneDrive - Firma Wanicki Sp. z o. o\Pulpit\DominikJProjektC\ProjektGra\obj\Debug\ProjektGra.pdb
