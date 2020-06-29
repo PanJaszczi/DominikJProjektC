@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Wisielec = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,18 +41,18 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.Wisielec)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Wisielec
+            // pictureBox1
             // 
-            this.Wisielec.Image = global::ProjektGra.Properties.Resources._1;
-            this.Wisielec.Location = new System.Drawing.Point(552, 12);
-            this.Wisielec.Name = "Wisielec";
-            this.Wisielec.Size = new System.Drawing.Size(473, 352);
-            this.Wisielec.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.Wisielec.TabIndex = 0;
-            this.Wisielec.TabStop = false;
+            this.pictureBox1.Image = global::ProjektGra.Properties.Resources._1;
+            this.pictureBox1.Location = new System.Drawing.Point(552, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(473, 352);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -191,10 +191,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Wisielec);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.Wisielec)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,7 +202,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox Wisielec;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

@@ -13,6 +13,7 @@ namespace ProjektGra
     public partial class Form1 : Form
     {
         string slowo;
+        int ile_pudel = 0;
         public Form1()
         {
             InitializeComponent();
@@ -21,7 +22,37 @@ namespace ProjektGra
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string litera = textBox1.Text;
+            bool czy_trafiony = false;
+            int gdzie_trafiony = 0;
 
+            for (int i = 1; i < 9; i++)
+            {
+                if (Convert.ToString(slowo[i]) == litera)
+                {
+                    czy_trafiony = true;
+                    gdzie_trafiony = i;
+                }
+                if (gdzie_trafiony == 1) { label2.Text = litera; }
+                if (gdzie_trafiony == 2) { label3.Text = litera; }
+                if (gdzie_trafiony == 3) { label4.Text = litera; }
+                if (gdzie_trafiony == 4) { label5.Text = litera; }
+                if (gdzie_trafiony == 5) { label6.Text = litera; }
+                if (gdzie_trafiony == 6) { label7.Text = litera; }
+                if (gdzie_trafiony == 7) { label8.Text = litera; }
+                if (gdzie_trafiony == 8) { label9.Text = litera; }
+            }
+
+            if (czy_trafiony == false)
+            {
+                ile_pudel = ile_pudel + 1;
+                if (ile_pudel == 1) { pictureBox1.Image = ProjektGra.Properties.Resources._2; }
+                if (ile_pudel == 2) { pictureBox1.Image = ProjektGra.Properties.Resources._3; }
+                if (ile_pudel == 3) { pictureBox1.Image = ProjektGra.Properties.Resources._4; }
+                if (ile_pudel == 4) { pictureBox1.Image = ProjektGra.Properties.Resources._5; }
+                if (ile_pudel == 5) { pictureBox1.Image = ProjektGra.Properties.Resources._6; }
+                if (ile_pudel == 6) { pictureBox1.Image = ProjektGra.Properties.Resources._7; }
+            }
         }
 
         private void losuj_slowo()
